@@ -60,7 +60,7 @@ wm_detection:
 
 wm_mb:
   loss_type: bce # loss between decoded and original
-  temperature: 0.1 # decoded is divided by temperature before loss computation
+  temperature: 1.0 # decoded is divided by temperature before loss computation (default 0.1)
 
 spec_range:
   n_fft: 2048
