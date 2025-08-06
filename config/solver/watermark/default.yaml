@@ -12,8 +12,8 @@ channels: ???
 
 # all the defaults form compression
 losses:
-  adv: #4.
-  feat: #4.
+  adv: 0.0 #4.
+  feat: 0.0 #4.
   l1: 0.1
   mel: 0.0
   msspec: #2.0
