@@ -12,15 +12,15 @@ channels: ???
 
 # all the defaults form compression
 losses:
-  adv: 4.
-  feat: 4.
+  adv: #4.
+  feat: #4.
   l1: 0.1
   mel: 0.0
-  msspec: 2.0
+  msspec: #2.0
   sisnr: 0.0
   wm_detection: 1.0 # loss for first 2 bits cannot be 0 
   wm_mb: 1.0  # loss for the rest of the bits (wm message)
-  tf_loudnessratio: 10.0
+  tf_loudnessratio: #10.0
 
 balancer:
   balance_grads: true
